@@ -1,0 +1,47 @@
+label.error {
+    color : red;
+    font-style: italic;
+}
+.alert-group{
+    font-weight: bold;
+}
+.alert ul{
+    list-style: none;
+    padding-left: 0;
+}
+.alert{
+    font-weight: bold;
+}
+
+.ui-datepicker {
+    z-index: 2!important;
+}
+
+.element_disabled
+{
+    pointer-events: none;
+    opacity: 0.5;
+    background: #CCC;
+}
+.pointer_disabled
+{
+    pointer-events: none;
+    color: #ccc !important;
+}
+
+.custom-combobox {
+	position: relative;
+	display: inline-block;
+}
+.custom-combobox-toggle {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin-left: -1px;
+	padding: 0;
+}
+.custom-combobox-input {
+	margin: 0;
+	padding: 5px 10px;
+	width: 500px;
+}

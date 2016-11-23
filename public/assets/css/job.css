@@ -1,0 +1,13 @@
+button.remove-btn {
+    position: relative;
+    left: -20px;
+    top: -10px;
+    padding: 8px;
+    vertical-align: top;
+}
+.image-caption {
+    margin-top: 10px;
+}
+div.image-box {
+    margin: 10px 10px 10px 0px;
+}
