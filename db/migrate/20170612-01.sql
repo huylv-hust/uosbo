@@ -1,0 +1,3 @@
+ALTER TABLE `m_ss`
+ADD COLUMN `lat` DECIMAL(11,8) NULL AFTER `user_id`,
+ADD COLUMN `lon` DECIMAL(11,8) NULL AFTER `lat`;

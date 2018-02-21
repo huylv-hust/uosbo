@@ -1,0 +1,112 @@
+body { padding-top: 70px; }
+
+.navbar-inverse a.dropdown-toggle {
+	color: #ffffff !important;
+}
+
+.navbar-brand {
+	color: #ffffff !important;
+	font-weight: bold;
+    padding: 10px;
+	height: auto;
+}
+
+.navbar-nav > li > a {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#login-bar {
+	background-color: #ED221E;
+	padding: 5px 0px 5px 20px;
+	color: #fff;
+	font-weight: bold;
+}
+
+footer {
+	color: #999999;
+	background-color: #eeeeee;
+	line-height: 40px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+table.table {
+	font-size: 90%;
+	vertical-align: middle;
+}
+
+table.table tr > th {
+	vertical-align: middle;
+	white-space: nowrap;
+	text-wrap: none;
+}
+
+table.table-bordered {
+	width: auto;
+
+}
+
+div.panel-body div.row, div.modal-body div.row {
+	margin-top: 10px;
+}
+
+span.label {
+	font-size: 100%;
+}
+
+.ui-autocomplete {
+	max-height: 200px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+* html .ui-autocomplete {
+    height: 200px;
+}
+/*Plan*/
+#form-plan .item-list{
+    display: inline-table;
+}
+#form-plan .item-list label.error{
+    display: none;
+}
+/*Edit label*/
+.bottom-space {
+    margin-bottom: 10px;
+}
+.edit-before {
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: #ff0000 1px dashed;
+    color: #cc0000;
+    background-color: #ffcccc;
+}
+.edit-option {
+    padding: 2px 5px 2px 5px;
+    color: #cc0000;
+    border: #ff0000 1px dashed;
+    background-color: #ffcccc;
+}
+.edit-display-none {
+    display: none;
+}
+.edit-display-show{
+    display: block!important;
+}
+.edit-inline{
+    float: left;
+}
+.edit-zipcode4{
+    width: 83px;
+}
+.edit-zipcode3{
+    width: 73px;
+}
+.filter-group-presenter select{
+    max-width: 200px;
+}
+.filter-group-presenter select option{
+    max-width: 200px;
+}

@@ -1,0 +1,10 @@
+ALTER TABLE `m_ss`
+CHANGE COLUMN `tel` `tel` VARCHAR(15) NOT NULL ;
+
+ALTER TABLE `m_partner`
+CHANGE COLUMN `tel` `tel` VARCHAR(15) NOT NULL ,
+CHANGE COLUMN `fax` `fax` VARCHAR(15) NULL ;
+
+ALTER TABLE `job`
+CHANGE COLUMN `phone_number1` `phone_number1` VARCHAR(15) NULL DEFAULT NULL ,
+CHANGE COLUMN `phone_number2` `phone_number2` VARCHAR(15) NULL DEFAULT NULL ;

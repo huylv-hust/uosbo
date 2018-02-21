@@ -1,0 +1,2 @@
+ALTER TABLE `uos`.`job`
+ADD COLUMN `is_webtoku` TINYINT NOT NULL DEFAULT 0 AFTER `csv`;
